@@ -3,10 +3,13 @@
 ##### CSE8803 – Machine Learning for Chemistry
 #
 
+
 **Hypothesis**: Performance of Graph Neural Networks in chemistry could potentially be improved by using NAS-based techniques
+
 **Goal**: Reinforcement Learning-based NAS for materials datasets
 
 # NAS Formulation
+<img width="1073" alt="Screen Shot 2023-04-27 at 3 57 36 PM" src="https://user-images.githubusercontent.com/25010271/234977606-79b6c60b-05ea-43a6-9d10-564d057ffda5.png">
 
 # Search Space
 - **GC Layers**: CGConv, GATConv, GraphConv, GCNConv, Dense (tried others like Transformer/GPS Layers but those are difficult for single GPU)
